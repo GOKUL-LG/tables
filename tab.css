@@ -1,0 +1,32 @@
+table,th,td,tr{
+    border: 2px dotted brown;
+    border-collapse: collapse;
+    
+  
+}
+tr{
+    text-align: center;
+    
+}
+tr:hover
+{
+    cursor: pointer;
+    color: blue;
+    background-color: aliceblue;
+}
+th{
+    background-color: black;
+    color: white;
+    &:hover{
+        cursor:row-resize;
+        color: chocolate;
+    }
+   
+}
+table{
+    width: 50%;
+}
+td:nth-child(odd)
+{
+    color: cadetblue;
+}
